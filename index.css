@@ -1,0 +1,166 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: linear-gradient(62deg, #8ec5fc 0, #e0c3fc 100%);
+}
+.App {
+  max-width: 1140px;
+  margin-top: 2.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 3rem;
+  background: linear-gradient(315deg, #f9fafc 0, #e3eefa 100%);
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+a {
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  border-bottom: 2px solid currentColor;
+}
+.BlogSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 2.9rem;
+  width: 70%;
+  height: 70%;
+}
+.BlogPost {
+  margin: 1rem;
+  max-width: 20rem;
+  max-height: 20.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0.5rem 1rem;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.BlogPostTitle {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.BlogPostPageTitle {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+.BlogPostText {
+  font-weight: 600;
+}
+.BlogPostDescription {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.BlogPostTags {
+  margin-top: 0.7rem;
+}
+.BlogPostTag {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  background-color: #000;
+  width: fit-content;
+}
+.Header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: stretch;
+  margin-bottom: 2rem;
+}
+.Logo,
+.Menu,
+.SearchBox {
+  display: inline-flex;
+  flex-direction: row;
+}
+.SearchBox {
+  padding-left: 5rem;
+}
+.SearchBoxInput {
+  width: 100%;
+  margin-left: 0.4rem;
+  border: 0;
+  border-radius: 2rem;
+  background: #e8f0fa;
+  font-weight: 700;
+}
+.SearchBoxInput:focus {
+  outline: 0;
+}
+.LogoText {
+  margin-left: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.LogoIcon {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Menu {
+  font-weight: 700;
+}
+.MenuItem {
+  margin-left: 20px;
+}
+.MenuItemIcon {
+  margin-right: 5px;
+}
+.SearchBox {
+  flex-grow: 1;
+}
+.Logo .SearchBox .Menu {
+  display: block;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+.MainSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: stretch;
+}
+.BlogContent,
+.LeftBar .LeftBarContent {
+  display: flex;
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+.LeftBar {
+  display: flex;
+  max-width: 160px;
+  flex-direction: column;
+  flex-grow: 0;
+}
+.LeftBarHeader {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.LeftBarContent {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+}
+.LeftBarIcon {
+  margin-right: 5px;
+}
+.BlogContent {
+  flex-grow: 1;
+}
